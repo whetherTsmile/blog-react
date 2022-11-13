@@ -1,6 +1,7 @@
 import Carousel from "../components/carousel/Carousel"
 import lq from "../assets/lq.jpg"
 import CategoryBar from "../components/categoryBar/CategoryBar"
+import Posts from "../components/post/Posts"
 
 const data = [
   { id: 0, src: lq, content: "123123213123" },
@@ -12,6 +13,7 @@ const MainContext = () => {
     <div className="main-left flex flex-1 flex-col">
       <Carousel lists={data} />
       <CategoryBar />
+      <Posts />
     </div>
   )
 }

@@ -9,6 +9,9 @@ module.exports = {
       // colors: {
       //   "c-blue": "#3eb8be",
       // },
+      screens: {
+        vs: "575px",
+      },
     },
   },
   plugins: [],
